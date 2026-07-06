@@ -1,0 +1,29 @@
+:root {
+  /* Schema A required */
+  --color-primary:        #1B3139;
+  --color-secondary:      #2272B4;
+  --color-accent:         #FF3621;
+  --color-background:     #FFFFFF;
+  --color-background-alt: #F9F7F4;
+  --color-text:           #1B3139;
+  --color-text-light:     #5A6F77;
+  --color-success:        #28A745;
+  --color-warning:        #FFC107;
+  --color-error:          #DC3545;
+
+  /* Optional design-system extras */
+  --color-surface:        #EEEDE9;
+
+  /* Fonts */
+  --font-heading: 'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-body:    'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:    'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Visual grammar (recovered from live-site evidence, 2026-07-06) */
+  --color-bg-dark:      #0B2026;
+  --color-bg-dark-alt:  #1B3139;
+  --color-bg-light:     #F9F7F4;
+  --shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05),
+                 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035),
+                 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02);
+}

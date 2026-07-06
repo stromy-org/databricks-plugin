@@ -1,0 +1,539 @@
+{
+  "client_slug": "databricks",
+  "schemaVersion": 1,
+  "version": "1.0",
+  "generatedFrom": {
+    "charterSha": "84d2698c8d154803468c59c94b38753766799dea63da7b65944e410c71b9e200",
+    "compiler": "1.0"
+  },
+  "tier": "producer",
+  "warnings": [
+    "producer brand has weak expression (sourceLevel=neutral-fallback)",
+    "no small-title `label` type-role (eyebrow/kicker) — capture charter.fonts.label so small titles don't default to mono (Component L)"
+  ],
+  "colors": {
+    "primary": "#1B3139",
+    "secondary": "#2272B4",
+    "accent": "#FF3621",
+    "background": "#FFFFFF",
+    "backgroundAlt": "#F9F7F4",
+    "text": "#1B3139",
+    "textLight": "#5A6F77",
+    "success": "#28A745",
+    "warning": "#FFC107",
+    "error": "#DC3545",
+    "surface": "#EEEDE9",
+    "bgDark": "#0B2026",
+    "bgDarkAlt": "#1B3139",
+    "bgLight": "#F9F7F4"
+  },
+  "typography": {
+    "heading": {
+      "family": "DM Sans",
+      "fallback": "-apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI"
+    },
+    "body": {
+      "family": "DM Sans",
+      "fallback": "-apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI"
+    },
+    "mono": {
+      "family": "DM Mono",
+      "fallback": "ui-monospace, SFMono-Regular, Menlo, monospace",
+      "fallbackStack": [
+        "Consolas",
+        "Courier New",
+        "monospace"
+      ],
+      "webSafe": "Consolas"
+    }
+  },
+  "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary:        #1B3139;\n  --color-secondary:      #2272B4;\n  --color-accent:         #FF3621;\n  --color-background:     #FFFFFF;\n  --color-background-alt: #F9F7F4;\n  --color-text:           #1B3139;\n  --color-text-light:     #5A6F77;\n  --color-success:        #28A745;\n  --color-warning:        #FFC107;\n  --color-error:          #DC3545;\n\n  /* Optional design-system extras */\n  --color-surface:        #EEEDE9;\n\n  /* Fonts */\n  --font-heading: 'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-body:    'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-mono:    'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;\n\n  /* Visual grammar (recovered from live-site evidence, 2026-07-06) */\n  --color-bg-dark:      #0B2026;\n  --color-bg-dark-alt:  #1B3139;\n  --color-bg-light:     #F9F7F4;\n  --shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05),\n                 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035),\n                 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02);\n}\n",
+  "identity": {
+    "company": {
+      "name": "Databricks",
+      "description": "Databricks is the Data and AI company.",
+      "industries": [
+        {
+          "name": "Computers Electronics and Technology",
+          "slug": "computers-electronics-and-technology"
+        },
+        {
+          "name": "Programming and Developer Software",
+          "slug": "programming-and-developer-software"
+        }
+      ]
+    }
+  },
+  "boilerplate": {
+    "footer": "Databricks",
+    "confidentiality": "Confidential — Databricks internal use only. Do not distribute without written permission.",
+    "copyright": "© {{year}} Databricks. All rights reserved."
+  },
+  "expression": {
+    "sourceLevel": "neutral-fallback",
+    "fallbacksUsed": [
+      "missing-expression"
+    ],
+    "visual_grammar": {
+      "backgrounds": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed backgroundColor across body/section/header/footer"
+        },
+        "tokens": [
+          "--color-bg-dark: #0B2026",
+          "--color-bg-dark-alt: #1B3139",
+          "--color-bg-light: #F9F7F4"
+        ],
+        "spec": {
+          "pattern": "full-bleed flat-color section bands, alternating dark navy and light cream — no gradients, no imagery",
+          "candidates": [
+            {
+              "id": "flat-alternating-bands",
+              "spec": {
+                "colors": [
+                  "#0B2026",
+                  "#1B3139",
+                  "#F9F7F4"
+                ],
+                "rhythm": "alternating per section"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "flat-alternating-bands"
+        }
+      },
+      "motifs": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com 'in the spotlight' content grid, 2026-07-06"
+        },
+        "spec": {
+          "pattern": "solid-color rectangular tiles (flat accent-orange #FF3621 and dark-navy blocks) used as graphic content blocks standing in for photography",
+          "candidates": [
+            {
+              "id": "flat-color-tiles",
+              "spec": {
+                "shape": "rectangle",
+                "colors": [
+                  "#FF3621",
+                  "#1B3139"
+                ],
+                "usage": "content-grid substitute for photography"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "flat-color-tiles"
+        }
+      },
+      "patterns": {
+        "status": "n-a",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep — svg <defs> pattern/gradient count = 1 (negligible); no tiled backgrounds found"
+        }
+      },
+      "grid": {
+        "status": "proposed",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed container/grid styles"
+        },
+        "spec": {
+          "pattern": "centered container, generous whitespace, responsive card grids (2-4 columns), rounded-corner cards",
+          "confidence_note": "partial evidence — no rigid CSS grid-template-columns/gap tokens resolved on sampled container",
+          "candidates": [
+            {
+              "id": "responsive-card-grid",
+              "spec": {
+                "columns": "2-4 responsive",
+                "cornerRadius": "rounded",
+                "whitespace": "generous"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "responsive-card-grid"
+        }
+      },
+      "iconography": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — sampled 10 of N inline SVGs (capped representative sample per skill guidance)"
+        },
+        "spec": {
+          "pattern": "two icon families: (1) thin-stroke line icons (~1-1.5px stroke), cool grey-blue (#90A5B1, #618794); (2) bolder solid-fill illustrative shapes in navy (#1B3139) and accent-orange (#FF5F46)",
+          "candidates": [
+            {
+              "id": "dual-family-line-and-solid",
+              "spec": {
+                "line": {
+                  "strokeWidth": "1-1.5px",
+                  "color": "#90A5B1"
+                },
+                "solid": {
+                  "colors": [
+                    "#1B3139",
+                    "#FF5F46"
+                  ]
+                }
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "dual-family-line-and-solid"
+        }
+      },
+      "gradients": {
+        "status": "n-a",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — zero gradient backgroundImage values found across body/section/header/footer"
+        }
+      },
+      "photo": {
+        "status": "n-a",
+        "required": false,
+        "evidence": {
+          "tier": "derived",
+          "source": "redundant with compiled images.overlay / images.manifest (brand-intelligence harvest, 2026-07-06)"
+        }
+      },
+      "elevation": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed box-shadow on elevated card element"
+        },
+        "tokens": [
+          "--shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05), 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035), 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02)"
+        ],
+        "spec": {
+          "pattern": "signature 'floating card on dark band' — soft multi-layer diffuse shadow lifting light-colored cards off dark section backgrounds",
+          "candidates": [
+            {
+              "id": "soft-diffuse-float",
+              "spec": {
+                "layers": 6,
+                "colorBase": "#1B3139",
+                "style": "soft diffuse, graduated offset 0-72px"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "soft-diffuse-float"
+        }
+      },
+      "motion": {
+        "status": "proposed",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — multiple filter:url(#__lottie_element_*) references detected on product/feature icons"
+        },
+        "spec": {
+          "pattern": "Lottie-based animated SVG illustrations on feature/product icons (not static)",
+          "confidence_note": "filter references confirmed; playback not visually verified — out of scope for this pass (P6 owns full motion capability)",
+          "candidates": [
+            {
+              "id": "lottie-icon-animation",
+              "spec": {
+                "technique": "Lottie",
+                "usage": "product/feature icon animation"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "lottie-icon-animation"
+        }
+      }
+    }
+  },
+  "plotly_theme": {
+    "colorway": [
+      "#1B3139",
+      "#FF3621",
+      "#2272B4",
+      "#28A745",
+      "#FFC107",
+      "#DC3545"
+    ],
+    "baseTemplate": "plotly_white",
+    "font": {
+      "family": "DM Sans",
+      "color": "#1B3139"
+    },
+    "titleFontSize": 18,
+    "gridColor": "#F9F7F4",
+    "sentiment": {
+      "positive": "#28A745",
+      "negative": "#DC3545",
+      "neutral": "#5A6F77"
+    }
+  },
+  "excalidraw_theme": {
+    "strokeColor": "#1B3139",
+    "fillColors": [
+      "#1B3139",
+      "#FF3621",
+      "#2272B4"
+    ],
+    "textColor": "#1B3139",
+    "arrowColor": "#1B3139",
+    "backgroundColor": "#FFFFFF",
+    "roughness": 0,
+    "headingFont": "DM Sans",
+    "bodyFont": "DM Sans"
+  },
+  "formatting": {
+    "aspectRatios": [
+      "16:9",
+      "9:16"
+    ],
+    "defaultAspectRatio": "16:9",
+    "aspectRatio": "16:9",
+    "slideMargin": "40pt",
+    "titleMargin": "60pt",
+    "contentMargin": "40pt",
+    "safeMargins": {
+      "top": "32px",
+      "bottom": "60px",
+      "left": "60px",
+      "right": "60px"
+    },
+    "footer": {
+      "show": true,
+      "logo": true,
+      "logoVariant": "mono",
+      "pageNumbers": true
+    },
+    "cover": {
+      "useHeroImage": false,
+      "overlayOpacity": 0.55
+    },
+    "divider": {
+      "useHeroImage": false,
+      "overlayOpacity": 0.6
+    },
+    "pageNumber": {
+      "show": true,
+      "format": "{page} / {pages}",
+      "position": "footer-right"
+    }
+  },
+  "images": {
+    "manifest": [
+      {
+        "id": "databricks-founders",
+        "file": "images/databricks-founders.jpg",
+        "theme": "team",
+        "roles": [
+          "closing",
+          "hero"
+        ],
+        "hero": true,
+        "orientation": "landscape",
+        "dims": "1424x816",
+        "mood": "authentic",
+        "source": {
+          "provenance": "databricks-owned",
+          "sourceAuthority": "official_published",
+          "rightsStatus": "public_use",
+          "url": "https://www.databricks.com/sites/default/files/2025-11/founders.jpg",
+          "fetchedAt": "2026-07-06",
+          "confidence": "high"
+        },
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.42
+          },
+          "textSafeZone": "lower-third"
+        }
+      },
+      {
+        "id": "databricks-company",
+        "file": "images/databricks-company.jpg",
+        "theme": "team",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "hero": false,
+        "orientation": "landscape",
+        "dims": "1424x816",
+        "mood": "professional",
+        "source": {
+          "provenance": "databricks-owned",
+          "sourceAuthority": "official_published",
+          "rightsStatus": "public_use",
+          "url": "https://www.databricks.com/sites/default/files/2025-11/boilerplate.jpg",
+          "fetchedAt": "2026-07-06",
+          "confidence": "high"
+        },
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "textSafeZone": "full"
+        }
+      },
+      {
+        "id": "databricks-event",
+        "file": "images/databricks-event.jpg",
+        "theme": "team",
+        "roles": [
+          "section"
+        ],
+        "hero": false,
+        "orientation": "landscape",
+        "dims": "928x486",
+        "mood": "energetic",
+        "source": {
+          "provenance": "databricks-owned",
+          "sourceAuthority": "official_published",
+          "rightsStatus": "public_use",
+          "url": "https://www.databricks.com/sites/default/files/2025-11/photography-card.jpg",
+          "fetchedAt": "2026-07-06",
+          "confidence": "medium"
+        },
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.4
+          },
+          "textSafeZone": "lower-third"
+        }
+      },
+      {
+        "id": "databricks-divider-01",
+        "file": "images/databricks-divider-01.jpg",
+        "theme": "data-infrastructure",
+        "roles": [
+          "divider"
+        ],
+        "hero": false,
+        "orientation": "landscape",
+        "dims": "2400x1347",
+        "mood": "dark, technical",
+        "treatment": {
+          "base": "stock",
+          "overlay": {
+            "color": "#1B3139",
+            "opacity": 0.58
+          },
+          "desaturate": 0.4
+        },
+        "source": {
+          "provenance": "unsplash-stock",
+          "sourceAuthority": "public_use",
+          "rightsStatus": "public_use",
+          "license": "Unsplash License (free, commercial use permitted)",
+          "photographer": "Taylor Vick (@tvick)",
+          "url": "https://unsplash.com/photos/M5tzZtFCOfs",
+          "fetchedAt": "2026-07-06",
+          "confidence": "medium"
+        },
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "textSafeZone": "center-safe"
+        }
+      },
+      {
+        "id": "databricks-background-01",
+        "file": "images/databricks-background-01.jpg",
+        "theme": "data-infrastructure",
+        "roles": [
+          "background",
+          "section"
+        ],
+        "hero": false,
+        "orientation": "landscape",
+        "dims": "2400x1274",
+        "mood": "abstract, dark",
+        "treatment": {
+          "base": "stock",
+          "overlay": {
+            "color": "#1B3139",
+            "opacity": 0.45
+          },
+          "accentTint": {
+            "color": "#FF3621",
+            "strength": 0.08
+          },
+          "desaturate": 0.25
+        },
+        "source": {
+          "provenance": "unsplash-stock",
+          "sourceAuthority": "public_use",
+          "rightsStatus": "public_use",
+          "license": "Unsplash License (free, commercial use permitted)",
+          "photographer": "Conny Schneider (@choys_)",
+          "url": "https://unsplash.com/photos/xuTJZ7uD7PI",
+          "fetchedAt": "2026-07-06",
+          "confidence": "medium"
+        },
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "textSafeZone": "full"
+        }
+      }
+    ]
+  },
+  "logo": {
+    "primary": "logos/logo.svg",
+    "white": "logos/logo-white.svg",
+    "png": "logos/logo.png",
+    "whitePng": "logos/logo-white.png",
+    "mark": "logos/symbol.svg",
+    "icon": "logos/icon.png",
+    "favicon": "logos/favicon.ico",
+    "favicon32": "logos/favicon-32.png",
+    "appIcon": "logos/apple-touch-icon.png",
+    "ogImage": "logos/og-image.png"
+  },
+  "fallbacksUsed": []
+}

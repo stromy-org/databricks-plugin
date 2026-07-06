@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "slug": "databricks",
+    "name": "Databricks",
+    "displayName": "Databricks",
+    "tagline": "The Data and AI company",
+    "description": "Databricks is the Data and AI company. Founded in 2013 by the original creators of Apache Spark, Delta Lake and MLflow, it provides a unified, open lakehouse platform for data engineering, data science, machine learning and analytics, trusted by thousands of organizations worldwide.",
+    "tier": "producer",
+    "domain": "databricks.com"
+  },
+  "logo": {
+    "primary": "logos/logo.svg",
+    "white": "logos/logo-white.svg",
+    "png": "logos/logo.png",
+    "whitePng": "logos/logo-white.png",
+    "mark": "logos/symbol.svg",
+    "icon": "logos/icon.png",
+    "favicon": "logos/favicon.ico",
+    "favicon32": "logos/favicon-32.png",
+    "appIcon": "logos/apple-touch-icon.png",
+    "ogImage": "logos/og-image.png"
+  },
+  "colors": {
+    "primary": "#1B3139",
+    "secondary": "#2272B4",
+    "accent": "#FF3621",
+    "background": "#FFFFFF",
+    "backgroundAlt": "#F9F7F4",
+    "text": "#1B3139",
+    "textLight": "#5A6F77",
+    "success": "#28A745",
+    "warning": "#FFC107",
+    "error": "#DC3545",
+    "surface": "#EEEDE9"
+  },
+  "fonts": {
+    "heading": {
+      "family": "DM Sans",
+      "fallback": "-apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI"
+    },
+    "body": {
+      "family": "DM Sans",
+      "fallback": "-apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI"
+    },
+    "mono": {
+      "family": "DM Mono",
+      "fallback": "ui-monospace, SFMono-Regular, Menlo, monospace",
+      "fallbackStack": [
+        "Consolas",
+        "Courier New",
+        "monospace"
+      ],
+      "webSafe": "Consolas"
+    }
+  },
+  "presentation": {
+    "aspectRatios": [
+      "16:9",
+      "9:16"
+    ],
+    "defaultAspectRatio": "16:9",
+    "aspectRatio": "16:9",
+    "slideMargin": "40pt",
+    "titleMargin": "60pt",
+    "contentMargin": "40pt",
+    "safeMargins": {
+      "top": "32px",
+      "bottom": "60px",
+      "left": "60px",
+      "right": "60px"
+    },
+    "footer": {
+      "show": true,
+      "logo": true,
+      "logoVariant": "mono",
+      "pageNumbers": true
+    },
+    "cover": {
+      "useHeroImage": false,
+      "overlayOpacity": 0.55
+    },
+    "divider": {
+      "useHeroImage": false,
+      "overlayOpacity": 0.6
+    },
+    "pageNumber": {
+      "show": true,
+      "format": "{page} / {pages}",
+      "position": "footer-right"
+    }
+  },
+  "pptxAssets": {
+    "gradients": {
+      "dark": "pptx-assets/gradient-dark.png",
+      "accent": "pptx-assets/gradient-accent.png"
+    }
+  },
+  "expression": {
+    "visual_grammar": {
+      "backgrounds": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed backgroundColor across body/section/header/footer"
+        },
+        "assets": [],
+        "tokens": [
+          "--color-bg-dark: #0B2026",
+          "--color-bg-dark-alt: #1B3139",
+          "--color-bg-light: #F9F7F4"
+        ],
+        "spec": {
+          "pattern": "full-bleed flat-color section bands, alternating dark navy and light cream \u2014 no gradients, no imagery",
+          "candidates": [
+            {
+              "id": "flat-alternating-bands",
+              "spec": {
+                "colors": [
+                  "#0B2026",
+                  "#1B3139",
+                  "#F9F7F4"
+                ],
+                "rhythm": "alternating per section"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "flat-alternating-bands"
+        }
+      },
+      "motifs": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com 'in the spotlight' content grid, 2026-07-06"
+        },
+        "assets": [],
+        "tokens": [],
+        "spec": {
+          "pattern": "solid-color rectangular tiles (flat accent-orange #FF3621 and dark-navy blocks) used as graphic content blocks standing in for photography",
+          "candidates": [
+            {
+              "id": "flat-color-tiles",
+              "spec": {
+                "shape": "rectangle",
+                "colors": [
+                  "#FF3621",
+                  "#1B3139"
+                ],
+                "usage": "content-grid substitute for photography"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "flat-color-tiles"
+        }
+      },
+      "patterns": {
+        "status": "n-a",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep \u2014 svg <defs> pattern/gradient count = 1 (negligible); no tiled backgrounds found"
+        },
+        "assets": [],
+        "tokens": [],
+        "spec": {}
+      },
+      "grid": {
+        "status": "proposed",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed container/grid styles"
+        },
+        "assets": [],
+        "tokens": [],
+        "spec": {
+          "pattern": "centered container, generous whitespace, responsive card grids (2-4 columns), rounded-corner cards",
+          "confidence_note": "partial evidence \u2014 no rigid CSS grid-template-columns/gap tokens resolved on sampled container",
+          "candidates": [
+            {
+              "id": "responsive-card-grid",
+              "spec": {
+                "columns": "2-4 responsive",
+                "cornerRadius": "rounded",
+                "whitespace": "generous"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "responsive-card-grid"
+        }
+      },
+      "iconography": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 sampled 10 of N inline SVGs (capped representative sample per skill guidance)"
+        },
+        "assets": [],
+        "tokens": [],
+        "spec": {
+          "pattern": "two icon families: (1) thin-stroke line icons (~1-1.5px stroke), cool grey-blue (#90A5B1, #618794); (2) bolder solid-fill illustrative shapes in navy (#1B3139) and accent-orange (#FF5F46)",
+          "candidates": [
+            {
+              "id": "dual-family-line-and-solid",
+              "spec": {
+                "line": {
+                  "strokeWidth": "1-1.5px",
+                  "color": "#90A5B1"
+                },
+                "solid": {
+                  "colors": [
+                    "#1B3139",
+                    "#FF5F46"
+                  ]
+                }
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "dual-family-line-and-solid"
+        }
+      },
+      "gradients": {
+        "status": "n-a",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 zero gradient backgroundImage values found across body/section/header/footer"
+        },
+        "assets": [],
+        "tokens": [],
+        "spec": {}
+      },
+      "photo": {
+        "status": "n-a",
+        "required": false,
+        "evidence": {
+          "tier": "derived",
+          "source": "redundant with compiled images.overlay / images.manifest (brand-intelligence harvest, 2026-07-06)"
+        },
+        "assets": [],
+        "tokens": [],
+        "spec": {}
+      },
+      "elevation": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed box-shadow on elevated card element"
+        },
+        "assets": [],
+        "tokens": [
+          "--shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05), 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035), 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02)"
+        ],
+        "spec": {
+          "pattern": "signature 'floating card on dark band' \u2014 soft multi-layer diffuse shadow lifting light-colored cards off dark section backgrounds",
+          "candidates": [
+            {
+              "id": "soft-diffuse-float",
+              "spec": {
+                "layers": 6,
+                "colorBase": "#1B3139",
+                "style": "soft diffuse, graduated offset 0-72px"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "soft-diffuse-float"
+        }
+      },
+      "motion": {
+        "status": "proposed",
+        "required": false,
+        "evidence": {
+          "tier": "live-site",
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 multiple filter:url(#__lottie_element_*) references detected on product/feature icons"
+        },
+        "assets": [],
+        "tokens": [],
+        "spec": {
+          "pattern": "Lottie-based animated SVG illustrations on feature/product icons (not static)",
+          "confidence_note": "filter references confirmed; playback not visually verified \u2014 out of scope for this pass (P6 owns full motion capability)",
+          "candidates": [
+            {
+              "id": "lottie-icon-animation",
+              "spec": {
+                "technique": "Lottie",
+                "usage": "product/feature icon animation"
+              },
+              "evidence": {
+                "tier": "live-site"
+              }
+            }
+          ],
+          "selected": "lottie-icon-animation"
+        }
+      }
+    }
+  }
+}

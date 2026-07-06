@@ -1,0 +1,133 @@
+{
+  "library": [
+    {
+      "id": "databricks-founders",
+      "file": "images/databricks-founders.jpg",
+      "theme": "team",
+      "roles": ["closing", "hero"],
+      "hero": true,
+      "orientation": "landscape",
+      "dims": "1424x816",
+      "mood": "authentic",
+      "source": {
+        "provenance": "databricks-owned",
+        "sourceAuthority": "official_published",
+        "rightsStatus": "public_use",
+        "url": "https://www.databricks.com/sites/default/files/2025-11/founders.jpg",
+        "fetchedAt": "2026-07-06",
+        "confidence": "high"
+      },
+      "geometry": {
+        "focalPoint": { "x": 0.5, "y": 0.42 },
+        "textSafeZone": "lower-third"
+      }
+    },
+    {
+      "id": "databricks-company",
+      "file": "images/databricks-company.jpg",
+      "theme": "team",
+      "roles": ["cover", "section"],
+      "hero": false,
+      "orientation": "landscape",
+      "dims": "1424x816",
+      "mood": "professional",
+      "source": {
+        "provenance": "databricks-owned",
+        "sourceAuthority": "official_published",
+        "rightsStatus": "public_use",
+        "url": "https://www.databricks.com/sites/default/files/2025-11/boilerplate.jpg",
+        "fetchedAt": "2026-07-06",
+        "confidence": "high"
+      },
+      "geometry": {
+        "focalPoint": { "x": 0.5, "y": 0.5 },
+        "textSafeZone": "full"
+      }
+    },
+    {
+      "id": "databricks-event",
+      "file": "images/databricks-event.jpg",
+      "theme": "team",
+      "roles": ["section"],
+      "hero": false,
+      "orientation": "landscape",
+      "dims": "928x486",
+      "mood": "energetic",
+      "source": {
+        "provenance": "databricks-owned",
+        "sourceAuthority": "official_published",
+        "rightsStatus": "public_use",
+        "url": "https://www.databricks.com/sites/default/files/2025-11/photography-card.jpg",
+        "fetchedAt": "2026-07-06",
+        "confidence": "medium"
+      },
+      "geometry": {
+        "focalPoint": { "x": 0.5, "y": 0.4 },
+        "textSafeZone": "lower-third"
+      }
+    },
+    {
+      "id": "databricks-divider-01",
+      "file": "images/databricks-divider-01.jpg",
+      "theme": "data-infrastructure",
+      "roles": ["divider"],
+      "hero": false,
+      "orientation": "landscape",
+      "dims": "2400x1347",
+      "mood": "dark, technical",
+      "treatment": {
+        "base": "stock",
+        "overlay": { "color": "#1B3139", "opacity": 0.58 },
+        "desaturate": 0.4
+      },
+      "source": {
+        "provenance": "unsplash-stock",
+        "sourceAuthority": "public_use",
+        "rightsStatus": "public_use",
+        "license": "Unsplash License (free, commercial use permitted)",
+        "photographer": "Taylor Vick (@tvick)",
+        "url": "https://unsplash.com/photos/M5tzZtFCOfs",
+        "fetchedAt": "2026-07-06",
+        "confidence": "medium"
+      },
+      "geometry": {
+        "focalPoint": { "x": 0.5, "y": 0.5 },
+        "textSafeZone": "center-safe"
+      }
+    },
+    {
+      "id": "databricks-background-01",
+      "file": "images/databricks-background-01.jpg",
+      "theme": "data-infrastructure",
+      "roles": ["background", "section"],
+      "hero": false,
+      "orientation": "landscape",
+      "dims": "2400x1274",
+      "mood": "abstract, dark",
+      "treatment": {
+        "base": "stock",
+        "overlay": { "color": "#1B3139", "opacity": 0.45 },
+        "accentTint": { "color": "#FF3621", "strength": 0.08 },
+        "desaturate": 0.25
+      },
+      "source": {
+        "provenance": "unsplash-stock",
+        "sourceAuthority": "public_use",
+        "rightsStatus": "public_use",
+        "license": "Unsplash License (free, commercial use permitted)",
+        "photographer": "Conny Schneider (@choys_)",
+        "url": "https://unsplash.com/photos/xuTJZ7uD7PI",
+        "fetchedAt": "2026-07-06",
+        "confidence": "medium"
+      },
+      "geometry": {
+        "focalPoint": { "x": 0.5, "y": 0.5 },
+        "textSafeZone": "full"
+      }
+    }
+  ],
+  "overlay": { "color": "primary", "opacity": 0.55 },
+  "logoVariantOnImage": "white",
+  "themes": ["team", "data-infrastructure"],
+  "note": "Modest producer-tier library (William: 'don't overdo it'). Real Databricks press-kit photography (team theme: founders/company/event) + Unsplash stock with Databricks brand treatment (data-infrastructure theme: divider/background). No cleared high-res divider/background asset existed in the Databricks press kit at harvest time."
+}

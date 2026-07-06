@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "databricks",
+  "version": "0.1.0",
+  "description": "Claude Code plugin for Databricks branded deliverables",
+  "author": {
+    "name": "stromy-org"
+  },
+  "repository": "https://github.com/stromy-org/databricks-plugin",
+  "license": "UNLICENSED",
+  "keywords": []
+}

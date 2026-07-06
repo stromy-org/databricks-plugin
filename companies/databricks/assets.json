@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "fonts": [
+    {
+      "family": "DM Mono",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "55b4c98f123daebb3ed27947ba47b2af00554fc6284d639a540bcef5e6258ad2",
+      "mime": "font/ttf",
+      "name": "DMMono-Regular.ttf"
+    },
+    {
+      "family": "DM Sans",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "mime": "font/ttf",
+      "name": "DMSans[opsz,wght].ttf"
+    }
+  ],
+  "logos": [
+    {
+      "name": "apple-touch-icon.png",
+      "sha256": "e86b304c39d5d04d685479df1ab4cd9ff78ba5f64601a4661416e424d1b21c6d",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-16.png",
+      "sha256": "aabb68ddf1d69b4761ae56ceccd24bd4920673469e01b4332131002794ff3f0e",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-192.png",
+      "sha256": "94aa98067170b7f93860a2213102f4de31e2ea1f8327e938fc67632e65786337",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-32.png",
+      "sha256": "67756e86fbecc49b2853606ff959293e4774b04ce34a5f25abce03fe4c3f0382",
+      "mime": "image/png"
+    },
+    {
+      "name": "icon.png",
+      "sha256": "be308fb2eab4a1891be97313e25e91a70a1f70ab828728e5ada73095a405f994",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo-white.png",
+      "sha256": "b851077e5c3a371cdf3976e6712971d6cbd7109adac74fd3ada8982d6b108b85",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo-white.svg",
+      "sha256": "a35066635b1fe328ad92f5d937f2edc331b78432a961f9f226d82c59b284616a",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo.png",
+      "sha256": "2233ab267acb9f510863d8c174675b046a28ee38af85643a0f7b0ae60ceb4f6c",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo.svg",
+      "sha256": "0abbd152ab55b099301b63da4d7b6dd890efe36d494d1e4d641a01902806d1e6",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "og-image.png",
+      "sha256": "73acf1631615a5172e4b27d548a3ee972273aaa74619d6135868ef307aeeba96",
+      "mime": "image/png"
+    },
+    {
+      "name": "symbol.svg",
+      "sha256": "8b6f2a6b0f6facd6fbfec62eb9947a58ac926c684f7fd84ed5cac8687c13de40",
+      "mime": "image/svg+xml"
+    }
+  ],
+  "images": [
+    {
+      "name": "databricks-background-01.jpg",
+      "sha256": "5c0a18213acabda4683287fbe19a432b8c55918af3706f8f4f532e30a2435106",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "databricks-company.jpg",
+      "sha256": "64b8b5b37690cd5f76d1c1465c618b1614da592eb1fc6ce3baa7b6a9473ced8f",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "databricks-divider-01.jpg",
+      "sha256": "3af9ecf526b8658f0396f715c8e08d45d42f6dfbc07b65bdea7d61b6fb8f4abe",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "databricks-event.jpg",
+      "sha256": "97892afbb57b339a78d04c10a31a073a50d68e33ab78f2817566438f3809c43b",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "databricks-founders.jpg",
+      "sha256": "b5ba747a20e4c22e972fd7d2bb5d23293f97a6ff3769f740087c869b17ff079e",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "gradient-accent.png",
+      "sha256": "bebecf46b4c971b721d21f48e143e242d36e7d1f106647e3b71bd4f303c0849c",
+      "mime": "image/png"
+    },
+    {
+      "name": "gradient-dark.png",
+      "sha256": "682d470e4e51c017106fec79808a51ea2e833a0e019245306c162d1d88b02ee5",
+      "mime": "image/png"
+    }
+  ]
+}
