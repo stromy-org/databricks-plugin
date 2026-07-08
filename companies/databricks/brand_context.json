@@ -3,14 +3,10 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "84d2698c8d154803468c59c94b38753766799dea63da7b65944e410c71b9e200",
+    "charterSha": "8bcf398099bbebda7504202c9d94416b2e8e5b698e3d9b98a9bdaac51ef70377",
     "compiler": "1.0"
   },
-  "tier": "producer",
-  "warnings": [
-    "producer brand has weak expression (sourceLevel=neutral-fallback)",
-    "no small-title `label` type-role (eyebrow/kicker) — capture charter.fonts.label so small titles don't default to mono (Component L)"
-  ],
+  "tier": "output",
   "colors": {
     "primary": "#1B3139",
     "secondary": "#2272B4",
@@ -535,5 +531,6 @@
     "appIcon": "logos/apple-touch-icon.png",
     "ogImage": "logos/og-image.png"
   },
-  "fallbacksUsed": []
+  "fallbacksUsed": [],
+  "warnings": []
 }

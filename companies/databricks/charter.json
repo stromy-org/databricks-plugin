@@ -5,7 +5,7 @@
     "displayName": "Databricks",
     "tagline": "The Data and AI company",
     "description": "Databricks is the Data and AI company. Founded in 2013 by the original creators of Apache Spark, Delta Lake and MLflow, it provides a unified, open lakehouse platform for data engineering, data science, machine learning and analytics, trusted by thousands of organizations worldwide.",
-    "tier": "producer",
+    "tier": "output",
     "domain": "databricks.com"
   },
   "logo": {
@@ -114,7 +114,7 @@
         "required": true,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed backgroundColor across body/section/header/footer"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed backgroundColor across body/section/header/footer"
         },
         "assets": [],
         "tokens": [
@@ -123,7 +123,7 @@
           "--color-bg-light: #F9F7F4"
         ],
         "spec": {
-          "pattern": "full-bleed flat-color section bands, alternating dark navy and light cream \u2014 no gradients, no imagery",
+          "pattern": "full-bleed flat-color section bands, alternating dark navy and light cream — no gradients, no imagery",
           "candidates": [
             {
               "id": "flat-alternating-bands",
@@ -178,7 +178,7 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep \u2014 svg <defs> pattern/gradient count = 1 (negligible); no tiled backgrounds found"
+          "source": "databricks.com homepage DOM sweep — svg <defs> pattern/gradient count = 1 (negligible); no tiled backgrounds found"
         },
         "assets": [],
         "tokens": [],
@@ -189,13 +189,13 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed container/grid styles"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed container/grid styles"
         },
         "assets": [],
         "tokens": [],
         "spec": {
           "pattern": "centered container, generous whitespace, responsive card grids (2-4 columns), rounded-corner cards",
-          "confidence_note": "partial evidence \u2014 no rigid CSS grid-template-columns/gap tokens resolved on sampled container",
+          "confidence_note": "partial evidence — no rigid CSS grid-template-columns/gap tokens resolved on sampled container",
           "candidates": [
             {
               "id": "responsive-card-grid",
@@ -217,7 +217,7 @@
         "required": true,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 sampled 10 of N inline SVGs (capped representative sample per skill guidance)"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — sampled 10 of N inline SVGs (capped representative sample per skill guidance)"
         },
         "assets": [],
         "tokens": [],
@@ -251,7 +251,7 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 zero gradient backgroundImage values found across body/section/header/footer"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — zero gradient backgroundImage values found across body/section/header/footer"
         },
         "assets": [],
         "tokens": [],
@@ -273,14 +273,14 @@
         "required": true,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed box-shadow on elevated card element"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed box-shadow on elevated card element"
         },
         "assets": [],
         "tokens": [
           "--shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05), 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035), 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02)"
         ],
         "spec": {
-          "pattern": "signature 'floating card on dark band' \u2014 soft multi-layer diffuse shadow lifting light-colored cards off dark section backgrounds",
+          "pattern": "signature 'floating card on dark band' — soft multi-layer diffuse shadow lifting light-colored cards off dark section backgrounds",
           "candidates": [
             {
               "id": "soft-diffuse-float",
@@ -302,13 +302,13 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 multiple filter:url(#__lottie_element_*) references detected on product/feature icons"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 — multiple filter:url(#__lottie_element_*) references detected on product/feature icons"
         },
         "assets": [],
         "tokens": [],
         "spec": {
           "pattern": "Lottie-based animated SVG illustrations on feature/product icons (not static)",
-          "confidence_note": "filter references confirmed; playback not visually verified \u2014 out of scope for this pass (P6 owns full motion capability)",
+          "confidence_note": "filter references confirmed; playback not visually verified — out of scope for this pass (P6 owns full motion capability)",
           "candidates": [
             {
               "id": "lottie-icon-animation",
