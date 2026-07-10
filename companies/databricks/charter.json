@@ -5,7 +5,7 @@
     "displayName": "Databricks",
     "tagline": "The Data and AI company",
     "description": "Databricks is the Data and AI company. Founded in 2013 by the original creators of Apache Spark, Delta Lake and MLflow, it provides a unified, open lakehouse platform for data engineering, data science, machine learning and analytics, trusted by thousands of organizations worldwide.",
-    "tier": "output",
+    "tier": "producer",
     "domain": "databricks.com"
   },
   "logo": {
@@ -108,6 +108,51 @@
     }
   },
   "expression": {
+    "source": "recovered",
+    "confidence": "high",
+    "status": "approved",
+    "principles": [
+      "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
+      "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
+      "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
+      "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
+      "Accent with intent: the red-orange accent marks CTAs, highlights and icon accents only, never as a fill for large areas.",
+      "This is a recovered, public-evidence reconstruction for internal Stromy showcase use — never represented as an official Databricks document."
+    ],
+    "visualAxes": {
+      "density": "structured",
+      "tone": "technical-confident",
+      "ornament": "minimal"
+    },
+    "signatureElements": [
+      "Full-bleed flat-colour section bands, alternating dark navy (#1B3139) and light cream (#F9F7F4)",
+      "Solid-colour rectangular content tiles (accent-orange, dark-navy) used as graphic blocks in place of photography",
+      "Signature floating card: light card lifted off a dark band by a soft, multi-layer diffuse shadow",
+      "Two icon families — thin-stroke cool grey-blue line icons and bolder solid-fill navy/accent illustrative shapes",
+      "DM Sans throughout for heading and body; DM Mono for code"
+    ],
+    "antiPatterns": [
+      "Gradient backgrounds or gradient fills (the site is deliberately flat)",
+      "Background photography or texture behind text",
+      "Decorative repeating patterns",
+      "Using the red-orange accent as a large-area fill rather than an accent",
+      "Drop shadows everywhere — depth is reserved for the single floating-card lift"
+    ],
+    "requiredMotifs": [
+      "solid-colour content tiles",
+      "floating card on dark band"
+    ],
+    "evidence": [
+      {
+        "path": "guidelines.md",
+        "kind": "live-site + press-kit harvest",
+        "sourceAuthority": "public_reconstruction",
+        "confidence": "high",
+        "surface": "all",
+        "freshness": "current",
+        "note": "Recovered from databricks.com homepage DOM sweep + press kit, 2026-07-06 (ORG-PLAN-071). Envelope fields derived from the same evidence that produced expression.visual_grammar; awaiting operator brand-smell sign-off to flip status→approved."
+      }
+    ],
     "visual_grammar": {
       "backgrounds": {
         "status": "approved",

@@ -3,10 +3,13 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "8bcf398099bbebda7504202c9d94416b2e8e5b698e3d9b98a9bdaac51ef70377",
+    "charterSha": "dc622dcef2cd9c3618ecbad11e1e3f3172c3e07179d4b1953ea07880ae6f3762",
     "compiler": "1.0"
   },
-  "tier": "output",
+  "tier": "producer",
+  "warnings": [
+    "no small-title `label` type-role (eyebrow/kicker) — capture charter.fonts.label so small titles don't default to mono (Component L)"
+  ],
   "colors": {
     "primary": "#1B3139",
     "secondary": "#2272B4",
@@ -78,9 +81,51 @@
     "copyright": "© {{year}} Databricks. All rights reserved."
   },
   "expression": {
-    "sourceLevel": "neutral-fallback",
-    "fallbacksUsed": [
-      "missing-expression"
+    "sourceLevel": "expression",
+    "status": "approved",
+    "confidence": "high",
+    "source": "recovered",
+    "evidence": [
+      {
+        "path": "guidelines.md",
+        "kind": "live-site + press-kit harvest",
+        "sourceAuthority": "public_reconstruction",
+        "confidence": "high",
+        "surface": "all",
+        "freshness": "current",
+        "note": "Recovered from databricks.com homepage DOM sweep + press kit, 2026-07-06 (ORG-PLAN-071). Envelope fields derived from the same evidence that produced expression.visual_grammar; awaiting operator brand-smell sign-off to flip status→approved."
+      }
+    ],
+    "principles": [
+      "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
+      "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
+      "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
+      "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
+      "Accent with intent: the red-orange accent marks CTAs, highlights and icon accents only, never as a fill for large areas.",
+      "This is a recovered, public-evidence reconstruction for internal Stromy showcase use — never represented as an official Databricks document."
+    ],
+    "visualAxes": {
+      "density": "structured",
+      "tone": "technical-confident",
+      "ornament": "minimal"
+    },
+    "signatureElements": [
+      "Full-bleed flat-colour section bands, alternating dark navy (#1B3139) and light cream (#F9F7F4)",
+      "Solid-colour rectangular content tiles (accent-orange, dark-navy) used as graphic blocks in place of photography",
+      "Signature floating card: light card lifted off a dark band by a soft, multi-layer diffuse shadow",
+      "Two icon families — thin-stroke cool grey-blue line icons and bolder solid-fill navy/accent illustrative shapes",
+      "DM Sans throughout for heading and body; DM Mono for code"
+    ],
+    "antiPatterns": [
+      "Gradient backgrounds or gradient fills (the site is deliberately flat)",
+      "Background photography or texture behind text",
+      "Decorative repeating patterns",
+      "Using the red-orange accent as a large-area fill rather than an accent",
+      "Drop shadows everywhere — depth is reserved for the single floating-card lift"
+    ],
+    "requiredMotifs": [
+      "solid-colour content tiles",
+      "floating card on dark band"
     ],
     "visual_grammar": {
       "backgrounds": {
@@ -279,6 +324,38 @@
           "selected": "lottie-icon-animation"
         }
       }
+    }
+  },
+  "surfaceExpression": {
+    "presentation": {
+      "visualAxes": {
+        "density": "structured",
+        "tone": "technical-confident",
+        "ornament": "minimal"
+      },
+      "principles": [
+        "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
+        "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
+        "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
+        "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
+        "Accent with intent: the red-orange accent marks CTAs, highlights and icon accents only, never as a fill for large areas.",
+        "This is a recovered, public-evidence reconstruction for internal Stromy showcase use — never represented as an official Databricks document."
+      ]
+    },
+    "document": {
+      "visualAxes": {
+        "density": "structured",
+        "tone": "technical-confident",
+        "ornament": "minimal"
+      },
+      "principles": [
+        "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
+        "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
+        "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
+        "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
+        "Accent with intent: the red-orange accent marks CTAs, highlights and icon accents only, never as a fill for large areas.",
+        "This is a recovered, public-evidence reconstruction for internal Stromy showcase use — never represented as an official Databricks document."
+      ]
     }
   },
   "plotly_theme": {
@@ -531,6 +608,5 @@
     "appIcon": "logos/apple-touch-icon.png",
     "ogImage": "logos/og-image.png"
   },
-  "fallbacksUsed": [],
-  "warnings": []
+  "fallbacksUsed": []
 }
