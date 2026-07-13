@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "dc622dcef2cd9c3618ecbad11e1e3f3172c3e07179d4b1953ea07880ae6f3762",
+    "charterSha": "5a15b5dace185732eb20ada6e120d25cf5ce8db9219c1a8c9a20d6f6f9d11b64",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -84,12 +84,12 @@
     "sourceLevel": "expression",
     "status": "approved",
     "confidence": "high",
-    "source": "recovered",
+    "source": "public_scrape",
     "evidence": [
       {
         "path": "guidelines.md",
         "kind": "live-site + press-kit harvest",
-        "sourceAuthority": "public_reconstruction",
+        "sourceAuthority": "public_scrape",
         "confidence": "high",
         "surface": "all",
         "freshness": "current",

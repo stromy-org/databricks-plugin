@@ -108,7 +108,7 @@
     }
   },
   "expression": {
-    "source": "recovered",
+    "source": "public_scrape",
     "confidence": "high",
     "status": "approved",
     "principles": [
@@ -146,7 +146,7 @@
       {
         "path": "guidelines.md",
         "kind": "live-site + press-kit harvest",
-        "sourceAuthority": "public_reconstruction",
+        "sourceAuthority": "public_scrape",
         "confidence": "high",
         "surface": "all",
         "freshness": "current",
