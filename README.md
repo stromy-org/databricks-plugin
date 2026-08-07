@@ -29,9 +29,16 @@ claude --plugin-dir .
 
 Skills are split between MCP-hosted stubs (fetched at runtime via
 `ReadMcpResourceTool`) and locally-authored skills (frontmatter `_local: true`).
-See `skills/README.md` for the maintenance workflow. Maintaining this plugin is
+See `skills/README.md` for the maintenance workflow.
+
+## Maintenance
+
+This plugin is a **product**, not a coding workspace: it ships no
+agent-instruction files (no `AGENTS.md`/`CLAUDE.md`/copilot) and keeps only
+`.mcp.json` (+ its `.agents/mcp.json` source) for MCP wiring. Maintaining it is
 an operator task driven by the `plugin-maintain` skill in stromy-org
-(`/plugin-maintain`) — it is not shipped in this plugin.
+(`/plugin-maintain`, run against this plugin) — the skill is deliberately not
+shipped here.
 
 ## Updating
 
