@@ -28,9 +28,9 @@
     "backgroundAlt": "#F9F7F4",
     "text": "#1B3139",
     "textLight": "#5A6F77",
-    "success": "#28A745",
-    "warning": "#FFC107",
-    "error": "#DC3545",
+    "success": "#2E7D6B",
+    "warning": "#C98B2D",
+    "error": "#C0271A",
     "surface": "#EEEDE9"
   },
   "fonts": {
@@ -42,7 +42,8 @@
         "Arial",
         "sans-serif"
       ],
-      "webSafe": "Segoe UI"
+      "webSafe": "Segoe UI",
+      "embedFamily": "DM Sans"
     },
     "body": {
       "family": "DM Sans",
@@ -52,7 +53,8 @@
         "Arial",
         "sans-serif"
       ],
-      "webSafe": "Segoe UI"
+      "webSafe": "Segoe UI",
+      "embedFamily": "DM Sans"
     },
     "mono": {
       "family": "DM Mono",
@@ -62,7 +64,23 @@
         "Courier New",
         "monospace"
       ],
-      "webSafe": "Consolas"
+      "webSafe": "Consolas",
+      "embedFamily": "DM Mono"
+    },
+    "label": {
+      "family": "DM Sans",
+      "embedFamily": "DM Sans",
+      "weight": "500",
+      "case": "uppercase",
+      "tracking": "0.08em",
+      "role": "eyebrow / kicker / overline",
+      "note": "No distinct eyebrow face is evidenced on databricks.com; the single-family DM Sans system carries small titles at a heavier weight with wider tracking. Declared explicitly so small titles never fall back to mono.",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI"
     }
   },
   "presentation": {
@@ -113,11 +131,11 @@
     "status": "approved",
     "principles": [
       "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
-      "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
+      "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream \u2014 no gradients, no background imagery.",
       "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
-      "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
+      "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow \u2014 the single permitted depth cue.",
       "Accent with intent: the red-orange accent marks CTAs, highlights and icon accents only, never as a fill for large areas.",
-      "This is a recovered, public-evidence reconstruction for internal Stromy showcase use — never represented as an official Databricks document."
+      "This is a recovered, public-evidence reconstruction for internal Stromy showcase use \u2014 never represented as an official Databricks document."
     ],
     "visualAxes": {
       "density": "structured",
@@ -128,7 +146,7 @@
       "Full-bleed flat-colour section bands, alternating dark navy (#1B3139) and light cream (#F9F7F4)",
       "Solid-colour rectangular content tiles (accent-orange, dark-navy) used as graphic blocks in place of photography",
       "Signature floating card: light card lifted off a dark band by a soft, multi-layer diffuse shadow",
-      "Two icon families — thin-stroke cool grey-blue line icons and bolder solid-fill navy/accent illustrative shapes",
+      "Two icon families \u2014 thin-stroke cool grey-blue line icons and bolder solid-fill navy/accent illustrative shapes",
       "DM Sans throughout for heading and body; DM Mono for code"
     ],
     "antiPatterns": [
@@ -136,7 +154,7 @@
       "Background photography or texture behind text",
       "Decorative repeating patterns",
       "Using the red-orange accent as a large-area fill rather than an accent",
-      "Drop shadows everywhere — depth is reserved for the single floating-card lift"
+      "Drop shadows everywhere \u2014 depth is reserved for the single floating-card lift"
     ],
     "requiredMotifs": [
       "solid-colour content tiles",
@@ -150,7 +168,7 @@
         "confidence": "high",
         "surface": "all",
         "freshness": "current",
-        "note": "Recovered from databricks.com homepage DOM sweep + press kit, 2026-07-06 (ORG-PLAN-071). Envelope fields derived from the same evidence that produced expression.visual_grammar; awaiting operator brand-smell sign-off to flip status→approved."
+        "note": "Recovered from databricks.com homepage DOM sweep + press kit, 2026-07-06 (ORG-PLAN-071). Envelope fields derived from the same evidence that produced expression.visual_grammar; awaiting operator brand-smell sign-off to flip status\u2192approved."
       }
     ],
     "visual_grammar": {
@@ -159,7 +177,7 @@
         "required": true,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed backgroundColor across body/section/header/footer"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed backgroundColor across body/section/header/footer"
         },
         "assets": [],
         "tokens": [
@@ -168,7 +186,7 @@
           "--color-bg-light: #F9F7F4"
         ],
         "spec": {
-          "pattern": "full-bleed flat-color section bands, alternating dark navy and light cream — no gradients, no imagery",
+          "pattern": "full-bleed flat-color section bands, alternating dark navy and light cream \u2014 no gradients, no imagery",
           "candidates": [
             {
               "id": "flat-alternating-bands",
@@ -223,7 +241,7 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep — svg <defs> pattern/gradient count = 1 (negligible); no tiled backgrounds found"
+          "source": "databricks.com homepage DOM sweep \u2014 svg <defs> pattern/gradient count = 1 (negligible); no tiled backgrounds found"
         },
         "assets": [],
         "tokens": [],
@@ -234,13 +252,13 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed container/grid styles"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed container/grid styles"
         },
         "assets": [],
         "tokens": [],
         "spec": {
           "pattern": "centered container, generous whitespace, responsive card grids (2-4 columns), rounded-corner cards",
-          "confidence_note": "partial evidence — no rigid CSS grid-template-columns/gap tokens resolved on sampled container",
+          "confidence_note": "partial evidence \u2014 no rigid CSS grid-template-columns/gap tokens resolved on sampled container",
           "candidates": [
             {
               "id": "responsive-card-grid",
@@ -262,7 +280,7 @@
         "required": true,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 — sampled 10 of N inline SVGs (capped representative sample per skill guidance)"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 sampled 10 of N inline SVGs (capped representative sample per skill guidance)"
         },
         "assets": [],
         "tokens": [],
@@ -296,7 +314,7 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 — zero gradient backgroundImage values found across body/section/header/footer"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 zero gradient backgroundImage values found across body/section/header/footer"
         },
         "assets": [],
         "tokens": [],
@@ -318,14 +336,14 @@
         "required": true,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 — computed box-shadow on elevated card element"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 computed box-shadow on elevated card element"
         },
         "assets": [],
         "tokens": [
           "--shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05), 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035), 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02)"
         ],
         "spec": {
-          "pattern": "signature 'floating card on dark band' — soft multi-layer diffuse shadow lifting light-colored cards off dark section backgrounds",
+          "pattern": "signature 'floating card on dark band' \u2014 soft multi-layer diffuse shadow lifting light-colored cards off dark section backgrounds",
           "candidates": [
             {
               "id": "soft-diffuse-float",
@@ -347,13 +365,13 @@
         "required": false,
         "evidence": {
           "tier": "live-site",
-          "source": "databricks.com homepage DOM sweep, 2026-07-06 — multiple filter:url(#__lottie_element_*) references detected on product/feature icons"
+          "source": "databricks.com homepage DOM sweep, 2026-07-06 \u2014 multiple filter:url(#__lottie_element_*) references detected on product/feature icons"
         },
         "assets": [],
         "tokens": [],
         "spec": {
           "pattern": "Lottie-based animated SVG illustrations on feature/product icons (not static)",
-          "confidence_note": "filter references confirmed; playback not visually verified — out of scope for this pass (P6 owns full motion capability)",
+          "confidence_note": "filter references confirmed; playback not visually verified \u2014 out of scope for this pass (P6 owns full motion capability)",
           "candidates": [
             {
               "id": "lottie-icon-animation",
@@ -376,5 +394,12 @@
       "styles": "templates/docx/styles.docx",
       "letterhead": "templates/docx/letterhead.docx"
     }
+  },
+  "images": {
+    "overlay": {
+      "color": "primary",
+      "opacity": 0.55
+    },
+    "logoVariantOnImage": "white"
   }
 }

@@ -3,13 +3,10 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "647811f028b73d54f76c0d8202710296a95d2e304060456f4d8b2a8d5f2dffc9",
+    "charterSha": "b3d4dbdee58b81c29d034eccf15acfde1a3e778e288da0fc6197b6a6543c5a78",
     "compiler": "1.0"
   },
   "tier": "producer",
-  "warnings": [
-    "no small-title `label` type-role (eyebrow/kicker) — capture charter.fonts.label so small titles don't default to mono (Component L)"
-  ],
   "colors": {
     "primary": "#1B3139",
     "secondary": "#2272B4",
@@ -18,9 +15,9 @@
     "backgroundAlt": "#F9F7F4",
     "text": "#1B3139",
     "textLight": "#5A6F77",
-    "success": "#28A745",
-    "warning": "#FFC107",
-    "error": "#DC3545",
+    "success": "#2E7D6B",
+    "warning": "#C98B2D",
+    "error": "#C0271A",
     "surface": "#EEEDE9",
     "bgDark": "#0B2026",
     "bgDarkAlt": "#1B3139",
@@ -30,6 +27,7 @@
     "heading": {
       "family": "DM Sans",
       "fallback": "-apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "embedFamily": "DM Sans",
       "fallbackStack": [
         "Segoe UI",
         "Arial",
@@ -40,6 +38,7 @@
     "body": {
       "family": "DM Sans",
       "fallback": "-apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "embedFamily": "DM Sans",
       "fallbackStack": [
         "Segoe UI",
         "Arial",
@@ -50,15 +49,29 @@
     "mono": {
       "family": "DM Mono",
       "fallback": "ui-monospace, SFMono-Regular, Menlo, monospace",
+      "embedFamily": "DM Mono",
       "fallbackStack": [
         "Consolas",
         "Courier New",
         "monospace"
       ],
       "webSafe": "Consolas"
+    },
+    "label": {
+      "family": "DM Sans",
+      "weight": "500",
+      "embedFamily": "DM Sans",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI",
+      "case": "uppercase",
+      "tracking": "0.08em"
     }
   },
-  "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary:        #1B3139;\n  --color-secondary:      #2272B4;\n  --color-accent:         #FF3621;\n  --color-background:     #FFFFFF;\n  --color-background-alt: #F9F7F4;\n  --color-text:           #1B3139;\n  --color-text-light:     #5A6F77;\n  --color-success:        #28A745;\n  --color-warning:        #FFC107;\n  --color-error:          #DC3545;\n\n  /* Optional design-system extras */\n  --color-surface:        #EEEDE9;\n\n  /* Fonts */\n  --font-heading: 'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-body:    'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-mono:    'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;\n\n  /* Visual grammar (recovered from live-site evidence, 2026-07-06) */\n  --color-bg-dark:      #0B2026;\n  --color-bg-dark-alt:  #1B3139;\n  --color-bg-light:     #F9F7F4;\n  --shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05),\n                 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035),\n                 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02);\n}\n",
+  "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary:        #1B3139;\n  --color-secondary:      #2272B4;\n  --color-accent:         #FF3621;\n  --color-background:     #FFFFFF;\n  --color-background-alt: #F9F7F4;\n  --color-text:           #1B3139;\n  --color-text-light:     #5A6F77;\n  --color-success:        #2E7D6B;\n  --color-warning:        #C98B2D;\n  --color-error:          #C0271A;\n\n  /* Optional design-system extras */\n  --color-surface:        #EEEDE9;\n\n  /* Fonts */\n  --font-heading: 'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-body:    'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-mono:    'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;\n\n  /* Visual grammar (recovered from live-site evidence, 2026-07-06) */\n  --color-bg-dark:      #0B2026;\n  --color-bg-dark-alt:  #1B3139;\n  --color-bg-light:     #F9F7F4;\n  --shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05),\n                 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035),\n                 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02);\n}\n",
   "identity": {
     "company": {
       "name": "Databricks",
@@ -363,9 +376,9 @@
       "#1B3139",
       "#FF3621",
       "#2272B4",
-      "#28A745",
-      "#FFC107",
-      "#DC3545"
+      "#2E7D6B",
+      "#C98B2D",
+      "#C0271A"
     ],
     "baseTemplate": "plotly_white",
     "font": {
@@ -375,8 +388,8 @@
     "titleFontSize": 18,
     "gridColor": "#F9F7F4",
     "sentiment": {
-      "positive": "#28A745",
-      "negative": "#DC3545",
+      "positive": "#2E7D6B",
+      "negative": "#C0271A",
       "neutral": "#5A6F77"
     }
   },
@@ -594,7 +607,12 @@
           "textSafeZone": "full"
         }
       }
-    ]
+    ],
+    "overlay": {
+      "color": "primary",
+      "opacity": 0.55
+    },
+    "logoVariantOnImage": "white"
   },
   "logo": {
     "primary": "logos/logo.svg",
@@ -614,5 +632,6 @@
       "letterhead": "templates/docx/letterhead.docx"
     }
   },
-  "fallbacksUsed": []
+  "fallbacksUsed": [],
+  "warnings": []
 }
