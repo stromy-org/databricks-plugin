@@ -255,7 +255,7 @@
         "spec": {}
       },
       "grid": {
-        "status": "proposed",
+        "status": "approved",
         "required": false,
         "evidence": {
           "tier": "live-site",
@@ -280,7 +280,8 @@
             }
           ],
           "selected": "responsive-card-grid"
-        }
+        },
+        "decision": "signed off 2026-08-26 (William) against a drawn specimen: the card-grid PATTERN is the grammar. No rigid column tokens resolved in the DOM sweep and none are claimed \u2014 exact CSS stays implementation detail."
       },
       "iconography": {
         "status": "approved",
@@ -368,7 +369,7 @@
         }
       },
       "motion": {
-        "status": "proposed",
+        "status": "n-a",
         "required": false,
         "evidence": {
           "tier": "live-site",
@@ -392,7 +393,8 @@
             }
           ],
           "selected": "lottie-icon-animation"
-        }
+        },
+        "decision": "declared not applicable 2026-08-26 (William): the Lottie evidence is references-only \u2014 playback was never verified \u2014 and nothing we render for this brand animates icons. Terminal without asserting a spec we cannot stand behind."
       }
     }
   },
