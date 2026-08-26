@@ -471,10 +471,10 @@
         "file": "images/databricks-founders.jpg",
         "theme": "team",
         "roles": [
-          "closing",
-          "hero"
+          "section"
         ],
-        "hero": true,
+        "hero": false,
+        "usage": "people photo — deliberate placement only (a team/about slide that is ABOUT the founders). Never cover, hero, divider or background: a founder portrait as the lead frame reads as self-regarding, not as the brand (William, 2026-08-26).",
         "orientation": "landscape",
         "dims": "1424x816",
         "mood": "authentic",
@@ -499,10 +499,10 @@
         "file": "images/databricks-company.jpg",
         "theme": "team",
         "roles": [
-          "cover",
           "section"
         ],
         "hero": false,
+        "usage": "people photo — deliberate placement only (company/culture context inside a section). Never cover, hero or background.",
         "orientation": "landscape",
         "dims": "1424x816",
         "mood": "professional",
@@ -554,9 +554,11 @@
         "file": "images/databricks-divider-01.jpg",
         "theme": "data-infrastructure",
         "roles": [
-          "divider"
+          "divider",
+          "background",
+          "hero"
         ],
-        "hero": false,
+        "hero": true,
         "orientation": "landscape",
         "dims": "2400x1347",
         "mood": "dark, technical",
@@ -591,6 +593,7 @@
         "file": "images/databricks-background-01.jpg",
         "theme": "data-infrastructure",
         "roles": [
+          "cover",
           "background",
           "section"
         ],
