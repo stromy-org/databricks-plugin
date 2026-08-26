@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "b3d4dbdee58b81c29d034eccf15acfde1a3e778e288da0fc6197b6a6543c5a78",
+    "charterSha": "b14efd588e98cab8ba62aac456cad487e5a1e8f6c7ae70d23745a37fb33c25d0",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -111,6 +111,7 @@
     ],
     "principles": [
       "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
+      "Voice and tone: technical-confident — a precise, unhyped register consistent with the flat, structured visual system (relocated from a non-visual 'tone' key formerly nested under expression.visualAxes; visualAxes is a visual-only vocabulary per grammar-taxonomy.md).",
       "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
       "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
       "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
@@ -118,9 +119,15 @@
       "This is a recovered, public-evidence reconstruction for internal Stromy showcase use — never represented as an official Databricks document."
     ],
     "visualAxes": {
+      "colorRhythm": "dark-light-indexed",
+      "contrast": "high",
       "density": "structured",
-      "tone": "technical-confident",
-      "ornament": "minimal"
+      "geometry": "rounded",
+      "imageTreatment": "abstract",
+      "motifProminence": "structural",
+      "ornament": "minimal",
+      "symmetry": "symmetric",
+      "typeExpression": "systematic"
     },
     "signatureElements": [
       "Full-bleed flat-colour section bands, alternating dark navy (#1B3139) and light cream (#F9F7F4)",
@@ -342,12 +349,19 @@
   "surfaceExpression": {
     "presentation": {
       "visualAxes": {
+        "colorRhythm": "dark-light-indexed",
+        "contrast": "high",
         "density": "structured",
-        "tone": "technical-confident",
-        "ornament": "minimal"
+        "geometry": "rounded",
+        "imageTreatment": "abstract",
+        "motifProminence": "structural",
+        "ornament": "minimal",
+        "symmetry": "symmetric",
+        "typeExpression": "systematic"
       },
       "principles": [
         "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
+        "Voice and tone: technical-confident — a precise, unhyped register consistent with the flat, structured visual system (relocated from a non-visual 'tone' key formerly nested under expression.visualAxes; visualAxes is a visual-only vocabulary per grammar-taxonomy.md).",
         "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
         "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
         "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
@@ -357,12 +371,19 @@
     },
     "document": {
       "visualAxes": {
+        "colorRhythm": "dark-light-indexed",
+        "contrast": "high",
         "density": "structured",
-        "tone": "technical-confident",
-        "ornament": "minimal"
+        "geometry": "rounded",
+        "imageTreatment": "abstract",
+        "motifProminence": "structural",
+        "ornament": "minimal",
+        "symmetry": "symmetric",
+        "typeExpression": "systematic"
       },
       "principles": [
         "Engineered clarity: a precise, technical system that reads as confident and unfussy.",
+        "Voice and tone: technical-confident — a precise, unhyped register consistent with the flat, structured visual system (relocated from a non-visual 'tone' key formerly nested under expression.visualAxes; visualAxes is a visual-only vocabulary per grammar-taxonomy.md).",
         "Flat and deliberate: full-bleed solid-colour section bands alternating dark navy and light cream — no gradients, no background imagery.",
         "Let structure carry the message: solid-colour rectangular tiles stand in for decorative photography in content grids.",
         "One signature lift: light cards float off dark bands on a soft, multi-layer diffuse shadow — the single permitted depth cue.",
