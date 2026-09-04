@@ -665,9 +665,9 @@
   "fallbacksUsed": [],
   "warnings": [],
   "token_roles": {
-    "surface": null,
-    "surfaceAlt": null,
-    "elevation": null,
+    "surface": "--color-surface",
+    "surfaceAlt": "--color-background-alt",
+    "elevation": "--shadow-card",
     "radius": null,
     "lineWeight": null,
     "tracking": null,
@@ -712,6 +712,6 @@
       "patterns",
       "photo"
     ],
-    "sha256": "f47183520e9ae4969ca2ca01c239b02c67ce78d6142219ba52e4e1497dab8762"
+    "sha256": "be67069d720bb7526542423d9ddf89cb0e3e7a2bbc92ad3488632ba4382e5c60"
   }
 }
