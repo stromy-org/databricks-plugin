@@ -1,6 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "databricks",
+  "displayName": "Databricks",
   "version": "0.2.14",
   "description": "Claude Code plugin for Databricks branded deliverables",
   "author": {
