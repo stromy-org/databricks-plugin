@@ -18,8 +18,8 @@ Via marketplace:
 
 For local development:
 ```bash
-git clone https://github.com/stromy-org/databricks.git
-cd databricks
+git clone https://github.com/stromy-org/databricks-plugin.git
+cd databricks-plugin
 npm install
 uv sync
 claude --plugin-dir .
