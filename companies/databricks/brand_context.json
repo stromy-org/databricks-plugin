@@ -34,6 +34,7 @@
         "sans-serif"
       ],
       "webSafe": "Segoe UI",
+      "webSafeAvailability": "web-safe",
       "rightsStatus": "unknown"
     },
     "body": {
@@ -46,6 +47,7 @@
         "sans-serif"
       ],
       "webSafe": "Segoe UI",
+      "webSafeAvailability": "web-safe",
       "rightsStatus": "unknown"
     },
     "mono": {
@@ -58,6 +60,7 @@
         "monospace"
       ],
       "webSafe": "Consolas",
+      "webSafeAvailability": "web-safe",
       "rightsStatus": "unknown"
     },
     "label": {
@@ -70,6 +73,7 @@
         "sans-serif"
       ],
       "webSafe": "Segoe UI",
+      "webSafeAvailability": "web-safe",
       "rightsStatus": "unknown",
       "case": "uppercase",
       "tracking": "0.08em"
@@ -712,6 +716,6 @@
       "patterns",
       "photo"
     ],
-    "sha256": "be67069d720bb7526542423d9ddf89cb0e3e7a2bbc92ad3488632ba4382e5c60"
+    "sha256": "354e7d90d7755f5620494e1b6ca277e7701db01b10b4ec2f389ea7e963dee8d7"
   }
 }
