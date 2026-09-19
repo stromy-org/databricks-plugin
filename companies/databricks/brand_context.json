@@ -81,6 +81,7 @@
   },
   "tokens_css": ":root {\n  /* Schema A required */\n  --color-primary:        #1B3139;\n  --color-secondary:      #2272B4;\n  --color-accent:         #FF3621;\n  --color-background:     #FFFFFF;\n  --color-background-alt: #F9F7F4;\n  --color-text:           #1B3139;\n  --color-text-light:     #5A6F77;\n  --color-success:        #2E7D6B;\n  --color-warning:        #C98B2D;\n  --color-error:          #C0271A;\n\n  /* Optional design-system extras */\n  --color-surface:        #EEEDE9;\n\n  /* Fonts */\n  --font-heading: 'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-body:    'DM Sans', -apple-system, system-ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;\n  --font-mono:    'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;\n\n  /* Visual grammar (recovered from live-site evidence, 2026-07-06) */\n  --color-bg-dark:      #0B2026;\n  --color-bg-dark-alt:  #1B3139;\n  --color-bg-light:     #F9F7F4;\n  --shadow-card: 0 72px 104px rgba(27,49,57,.07), 0 32px 40px rgba(27,49,57,.05),\n                 0 16px 24px rgba(27,49,57,.04), 0 9px 13px rgba(27,49,57,.035),\n                 0 4px 8px rgba(27,49,57,.04), 0 2px 3px rgba(27,49,57,.02);\n}\n",
   "identity": {
+    "name": "Databricks",
     "company": {
       "name": "Databricks",
       "description": "Databricks is the Data and AI company.",
@@ -412,12 +413,14 @@
       "#C0271A"
     ],
     "baseTemplate": "plotly_white",
+    "canvasColor": "#FFFFFF",
     "font": {
       "family": "DM Sans",
       "color": "#1B3139"
     },
     "titleFontSize": 18,
     "gridColor": "#F9F7F4",
+    "secondaryTextColor": "#5A6F77",
     "sentiment": {
       "positive": "#2E7D6B",
       "negative": "#C0271A",
@@ -716,6 +719,6 @@
       "patterns",
       "photo"
     ],
-    "sha256": "354e7d90d7755f5620494e1b6ca277e7701db01b10b4ec2f389ea7e963dee8d7"
+    "sha256": "f6cb5c1c1134084489434b0536d83b59c8b98e67da8685b0b4f5eb4f99b856f6"
   }
 }
