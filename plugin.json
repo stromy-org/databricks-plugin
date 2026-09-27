@@ -1,7 +1,6 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "databricks",
-  "displayName": "Databricks",
   "version": "0.2.25",
   "description": "Plugin for Databricks branded deliverables",
   "author": {
@@ -9,8 +8,5 @@
   },
   "repository": "https://github.com/stromy-org/databricks-plugin",
   "license": "UNLICENSED",
-  "keywords": [],
-  "skills": [
-    "./.claude-plugin/skills"
-  ]
+  "keywords": []
 }
