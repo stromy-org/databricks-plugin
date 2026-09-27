@@ -1,0 +1,10 @@
+{
+  "name": "databricks",
+  "version": "0.2.25",
+  "description": "Plugin for Databricks branded deliverables",
+  "mcpServers": {
+    "stromy-format": {
+      "httpUrl": "https://stromy-format-mcp.whitetree-762cff59.westeurope.azurecontainerapps.io/mcp"
+    }
+  }
+}
