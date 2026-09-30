@@ -1,0 +1,7 @@
+{
+  "name": "databricks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code plugin for Databricks branded deliverables",
+  "dependencies": {}
+}

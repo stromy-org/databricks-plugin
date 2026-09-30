@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schema/boilerplate.schema.json",
+  "version": "1.0",
+  "description": "Boilerplate strings consumed at render time by every format skill (pptx, pptx-hd, docx, pdf, pdf-hd, xlsx). Seeded from _default by brand-artifact-builder; {{client}} resolved to Databricks. Edit individual fields as needed.",
+
+  "address": "160 Spear Street, 15th Floor, San Francisco, CA 94105, USA",
+  "website": "https://www.databricks.com",
+  "email": "",
+  "phone": "",
+
+  "footer": {
+    "show": true,
+    "left":   "Databricks",
+    "center": "",
+    "right":  "Page {page} of {pages}"
+  },
+
+  "confidentiality": {
+    "show": false,
+    "level": "internal",
+    "text": "Confidential — Databricks internal use only. Do not distribute without written permission.",
+    "position": "footer-left",
+    "fontPt": 8
+  },
+
+  "watermark": {
+    "show": false,
+    "text": "DRAFT",
+    "opacity": 0.08,
+    "rotationDeg": -30,
+    "fontPt": 96,
+    "color": "{{colors.textLight|#cccccc}}"
+  },
+
+  "legal": {
+    "copyright": "© {{year}} Databricks. All rights reserved.",
+    "trademark": "Databricks, Apache Spark, Delta Lake and MLflow are trademarks of Databricks, Inc. and the Apache Software Foundation.",
+    "disclaimer": ""
+  },
+
+  "deck": {
+    "coverFooter": "",
+    "closingTagline": "",
+    "agendaTitle": "Agenda"
+  },
+
+  "document": {
+    "draftBadge": "DRAFT",
+    "tocTitle": "Table of Contents",
+    "appendixTitle": "Appendix"
+  }
+}

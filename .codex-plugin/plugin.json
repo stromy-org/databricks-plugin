@@ -1,0 +1,12 @@
+{
+  "name": "databricks",
+  "version": "0.2.25",
+  "description": "Plugin for Databricks branded deliverables",
+  "author": {
+    "name": "stromy-org"
+  },
+  "repository": "https://github.com/stromy-org/databricks-plugin",
+  "license": "UNLICENSED",
+  "keywords": [],
+  "mcpServers": "./mcp.json"
+}

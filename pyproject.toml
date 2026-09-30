@@ -1,0 +1,6 @@
+[project]
+name = "databricks"
+version = "0.1.0"
+description = "Claude Code plugin for Databricks branded deliverables"
+requires-python = ">=3.11"
+dependencies = []

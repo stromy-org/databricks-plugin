@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "profileSha": "dba0daf11ee91eb8ff7c9989276c1c4703fb61b5b3862e38c8946696c9603058",
+    "compiler": "1.0"
+  },
+  "company": {
+    "name": "Databricks",
+    "description": "Databricks is the Data and AI company.",
+    "tagline": "The Data and AI company",
+    "founded": 2013,
+    "headquarters": {
+      "city": "San Francisco",
+      "country": "United States"
+    },
+    "industries": [
+      {
+        "name": "Computers Electronics and Technology",
+        "slug": "computers-electronics-and-technology"
+      },
+      {
+        "name": "Programming and Developer Software",
+        "slug": "programming-and-developer-software"
+      }
+    ],
+    "publicContact": {
+      "linkedin": "https://linkedin.com/company/databricks"
+    }
+  }
+}
