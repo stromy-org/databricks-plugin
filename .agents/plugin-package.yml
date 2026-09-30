@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: databricks
   display_name: Databricks
-  version: 0.2.25
+  version: 0.2.26
   description: Plugin for Databricks branded deliverables
   author:
     name: stromy-org
