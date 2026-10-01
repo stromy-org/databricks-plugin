@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; DO NOT edit manually.
-_commit: v1.2.0
+_commit: v1.7.0
 _src_path: gh:stromy-org/claude-plugin-template
 author_name: William Masquelier
 client_name: Databricks
@@ -15,6 +15,6 @@ marketplace_slug: databricks-marketplace
 mcp_servers: []
 plugin_name: Databricks Deliverables
 plugin_slug: databricks
-provider_targets: claude
+provider_targets: openai,codex,claude,cursor,copilot,vscode,kiro,gemini
 repo_slug: databricks-plugin
 version: 0.1.0
