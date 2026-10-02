@@ -1,7 +1,7 @@
 {
   "name": "databricks",
   "displayName": "Databricks",
-  "version": "0.2.28",
+  "version": "0.2.29",
   "description": "Plugin for Databricks branded deliverables",
   "author": {
     "name": "stromy-org"
