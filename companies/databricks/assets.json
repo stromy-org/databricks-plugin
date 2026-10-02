@@ -15,7 +15,11 @@
       "style": "normal",
       "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
       "mime": "font/ttf",
-      "name": "DMSans[opsz,wght].ttf"
+      "name": "DMSans[opsz,wght].ttf",
+      "weight_range": [
+        100,
+        1000
+      ]
     }
   ],
   "logos": [
@@ -113,8 +117,10 @@
     }
   ],
   "brand_context": {
-    "sha256": "10b284a4a530baef46159ee9d28ae41a6566992693b0726e54f3d0a3e5511339",
+    "sha256": null,
     "mime": "application/json",
-    "bytes": 25914
+    "bytes": 25914,
+    "pending_upload": "10b284a4a530baef46159ee9d28ae41a6566992693b0726e54f3d0a3e5511339",
+    "reason": "no remote upload: local backend or dry-run"
   }
 }
