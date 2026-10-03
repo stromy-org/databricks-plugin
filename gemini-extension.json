@@ -1,6 +1,6 @@
 {
   "name": "databricks",
-  "version": "0.2.29",
+  "version": "0.2.30",
   "description": "Plugin for Databricks branded deliverables",
   "mcpServers": {
     "stromy-format": {
