@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "additional_banned_phrases": [
+    "revolutionary AI",
+    "game-changing",
+    "best-in-class",
+    "cutting-edge",
+    "unlock the power",
+    "supercharge",
+    "magic of AI",
+    "AI-powered everything",
+    "seamless synergy",
+    "leverage our solution",
+    "the only platform",
+    "end-to-end solution"
+  ],
+  "additional_banned_substrings": [],
+  "notes": "Databricks L2: additive-only bans on top of L1. Evidence (databricks.com product, about and blog pages, 2026-10-06): copy names concrete surfaces and uses plain verbs such as simplify, govern, ground, scale; none of the pages read use the banned hype vocabulary. Bans cover (a) generic AI-hype vocabulary the profile's 'Do not' list rules out, (b) vague 'solution' language that replaces naming a product surface, (c) unprovable exclusivity claims. Judgement rules (peer tone to technical readers, claims traceable to public materials) stay in voice-profile.md."
+}
