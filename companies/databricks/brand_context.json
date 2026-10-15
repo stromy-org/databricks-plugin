@@ -504,7 +504,13 @@
             "x": 0.5,
             "y": 0.42
           },
-          "textSafeZone": "lower-third"
+          "textSafeZone": "lower-third",
+          "subjectBox": {
+            "x": 0.08,
+            "y": 0.05,
+            "w": 0.82,
+            "h": 0.95
+          }
         }
       },
       {
@@ -532,7 +538,13 @@
             "x": 0.5,
             "y": 0.5
           },
-          "textSafeZone": "full"
+          "textSafeZone": "full",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.25,
+            "w": 1.0,
+            "h": 0.7
+          }
         }
       },
       {
@@ -559,7 +571,13 @@
             "x": 0.5,
             "y": 0.4
           },
-          "textSafeZone": "lower-third"
+          "textSafeZone": "lower-third",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.1,
+            "w": 1.0,
+            "h": 0.85
+          }
         }
       },
       {
@@ -598,7 +616,13 @@
             "x": 0.5,
             "y": 0.5
           },
-          "textSafeZone": "center-safe"
+          "textSafeZone": "center-safe",
+          "subjectBox": {
+            "x": 0.05,
+            "y": 0.0,
+            "w": 0.7,
+            "h": 1.0
+          }
         }
       },
       {
@@ -641,7 +665,13 @@
             "x": 0.5,
             "y": 0.5
           },
-          "textSafeZone": "full"
+          "textSafeZone": "full",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.25,
+            "w": 1.0,
+            "h": 0.75
+          }
         }
       }
     ],
@@ -720,6 +750,6 @@
       "photo"
     ],
     "images_count": 5,
-    "sha256": "f6cb5c1c1134084489434b0536d83b59c8b98e67da8685b0b4f5eb4f99b856f6"
+    "sha256": "3919718c60a5a3aca7510dcbd43ca92beba266b214bb540b13c4ff08748131f8"
   }
 }
