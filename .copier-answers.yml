@@ -12,7 +12,11 @@ include_mcp: false
 include_node: true
 include_python: true
 marketplace_slug: databricks-marketplace
-mcp_servers: []
+mcp_servers:
+- connector: true
+  name: asset-broker
+  transport: http
+  url: https://asset-broker-mcp.redbeach-6781a121.northeurope.azurecontainerapps.io/mcp
 plugin_name: Databricks Deliverables
 plugin_slug: databricks
 provider_targets: openai,codex,claude,cursor,copilot,vscode,kiro,gemini
