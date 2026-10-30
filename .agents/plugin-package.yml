@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: databricks
   display_name: Databricks
-  version: 0.2.36
+  version: 0.2.37
   description: Plugin for Databricks branded deliverables
   author:
     name: stromy-org
@@ -34,9 +34,7 @@ portable_capabilities:
     - format-docx-hd
     - format-guide
     - format-html-hd
-    - format-html-reveal
     - format-i18n
-    - format-mermaid
     - format-motion
     - format-pdf
     - format-pdf-hd
@@ -59,9 +57,7 @@ skills:
   - format-docx-hd
   - format-guide
   - format-html-hd
-  - format-html-reveal
   - format-i18n
-  - format-mermaid
   - format-motion
   - format-pdf
   - format-pdf-hd
