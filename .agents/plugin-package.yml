@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: databricks
   display_name: Databricks
-  version: 0.2.38
+  version: 0.2.39
   description: Plugin for Databricks branded deliverables
   author:
     name: stromy-org
@@ -104,6 +104,13 @@ skills:
     capability: cowork-workspace
     reason: Reads and writes the client's SharePoint workspace record through workspace-scoped tools that
       exist only in a Cowork workspace session.
+  - skill: kit-prospect-contact
+    providers:
+    - claude
+    capability: toolkit-connector
+    reason: 'Hosted on the OAuth-gated ''toolkit'' MCP, which the plugin bundles as a Claude connector
+      (Connectors tab, hosted sign-in); the other hosts have no hosted sign-in, so it stays Claude-only
+      (Invariant #13).'
 marketplace:
   name: databricks-marketplace
   repository: https://github.com/stromy-org/databricks-marketplace
