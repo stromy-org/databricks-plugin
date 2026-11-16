@@ -825,6 +825,62 @@
       }
     }
   },
+  "libraryHandles": [
+    {
+      "path": "images/databricks-background-01.jpg",
+      "sha256": "5c0a18213acabda4683287fbe19a432b8c55918af3706f8f4f532e30a2435106",
+      "mime": "image/jpeg",
+      "libraryId": "databricks-background-01"
+    },
+    {
+      "path": "images/databricks-company.jpg",
+      "sha256": "64b8b5b37690cd5f76d1c1465c618b1614da592eb1fc6ce3baa7b6a9473ced8f",
+      "mime": "image/jpeg",
+      "libraryId": "databricks-company"
+    },
+    {
+      "path": "images/databricks-divider-01.jpg",
+      "sha256": "3af9ecf526b8658f0396f715c8e08d45d42f6dfbc07b65bdea7d61b6fb8f4abe",
+      "mime": "image/jpeg",
+      "libraryId": "databricks-divider-01"
+    },
+    {
+      "path": "images/databricks-event.jpg",
+      "sha256": "97892afbb57b339a78d04c10a31a073a50d68e33ab78f2817566438f3809c43b",
+      "mime": "image/jpeg",
+      "libraryId": "databricks-event"
+    },
+    {
+      "path": "images/databricks-founders.jpg",
+      "sha256": "b5ba747a20e4c22e972fd7d2bb5d23293f97a6ff3769f740087c869b17ff079e",
+      "mime": "image/jpeg",
+      "libraryId": "databricks-founders"
+    },
+    {
+      "path": "pptx-assets/gradient-accent.png",
+      "sha256": "bebecf46b4c971b721d21f48e143e242d36e7d1f106647e3b71bd4f303c0849c",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradient-accent.png"
+    },
+    {
+      "path": "pptx-assets/gradient-dark.png",
+      "sha256": "682d470e4e51c017106fec79808a51ea2e833a0e019245306c162d1d88b02ee5",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradient-dark.png"
+    },
+    {
+      "path": "templates/docx/letterhead.docx",
+      "sha256": "53b03c8decd31d5ba11da0b14f4641edfdd26a8697f7ef8d0d4349c0213cc339",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-letterhead.docx"
+    },
+    {
+      "path": "templates/docx/styles.docx",
+      "sha256": "f24c3559d3d4270c3bf91644ddabf30490894e8fa5be0fe7a628d198a9b5691a",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-styles.docx"
+    }
+  ],
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
@@ -841,6 +897,7 @@
       "generatedFrom",
       "identity",
       "images",
+      "libraryHandles",
       "logo",
       "plotly_theme",
       "presentation",
@@ -867,6 +924,6 @@
       "photo"
     ],
     "images_count": 5,
-    "sha256": "9e6af8d501e4fb925c2f27ec20ac434a5f9547132f6fdeb38ca4ff37d6fe6cd3"
+    "sha256": "9a9fe7d5dac22a3194b7de92aa56f9d80d0c006fb30edcce7985a67ee38822e2"
   }
 }
