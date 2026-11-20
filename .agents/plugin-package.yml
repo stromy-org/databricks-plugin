@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: databricks
   display_name: Databricks
-  version: 0.2.43
+  version: 0.2.44
   description: Plugin for Databricks branded deliverables
   author:
     name: stromy-org
@@ -31,7 +31,6 @@ portable_capabilities:
     - format-chart
     - format-diagram
     - format-docx
-    - format-docx-hd
     - format-guide
     - format-html-hd
     - format-i18n
@@ -39,22 +38,16 @@ portable_capabilities:
     - format-pdf
     - format-pdf-hd
     - format-pptx
-    - format-pptx-hd
     - format-prepare-document
     - format-video-hd
     - format-xlsx
     mcp_servers:
     - stromy-format
-  plugin-workflows:
-    summary: Workflows authored for this plugin and shipped inside it
-    skills:
-    - getting-started
 skills:
   include:
   - format-chart
   - format-diagram
   - format-docx
-  - format-docx-hd
   - format-guide
   - format-html-hd
   - format-i18n
@@ -62,11 +55,9 @@ skills:
   - format-pdf
   - format-pdf-hd
   - format-pptx
-  - format-pptx-hd
   - format-prepare-document
   - format-video-hd
   - format-xlsx
-  - getting-started
   provider_extras:
   - skill: asset-editor
     providers:
